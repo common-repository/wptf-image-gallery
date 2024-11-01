@@ -1,0 +1,118 @@
+.wptf-simple, .wptf-black, .wptf-blur, .wptf-zoomin{
+margin:0;
+padding:0;
+display:block;
+}
+
+.wptf-simple li, .wptf-black li, .wptf-blur li{
+list-style:none;
+display:inline-block;
+*zoom:1;
+*display:inline;
+
+margin:4px !important;
+padding:0 !important;
+}
+
+.wptf-simple li a{
+display:block;
+text-decoration:none;
+background:#fff url("../images/zoom-in.png") no-repeat center center;
+float: left;
+border:1px solid gray;
+border-radius:0;
+padding:5px;
+}
+
+.wptf-black li a, .wptf-blur li a{
+display:block;
+text-decoration:none;
+background-color:#fff;
+background-repeat:no-repeat;
+background-position:center center;
+float: left;
+border:1px solid gray;
+border-radius:0;
+padding:5px;
+}
+
+.wptf-zoomin li{
+list-style:none;
+display:inline-block;
+*zoom:1;
+*display:inline;
+margin:-7px 0 0 0 !important;
+*margin:-10px 0 0 0 !important;
+padding:0 !important;
+}
+
+.wptf-zoomin li a{
+display:block;
+text-decoration:none;
+background-color:#fff;
+background-repeat:no-repeat;
+background-position:center center;
+float: left;
+border:0;
+border-radius:0;
+padding:0;
+}
+
+.wptf-zoomin li a:hover img{
+position:absolute;
+box-shadow:0 0 8px #000;
+border:1px solid gray;
+}
+
+.wptf-pnav{clear:both;padding:20px 0 !important;}
+
+.wptf-pnav a{
+text-decoration:none;
+}
+
+.wptf-pnav li{
+list-style:none;
+margin:0 5px 0 0 !important;
+}
+
+.wptf-simple li a img, .wptf-black li a img, .wptf-blur li a img, .wptf-zoomin li a img{
+display:block;
+border-radius:0;
+box-shadow:0 0 0 #fff;
+}
+
+.wptf-circle li a img{
+border-radius:200px;
+position:relative;
+display:block;
+box-shadow:0 0 0 #fff;
+border:10px solid #fff;
+}
+
+
+.wptf-circle li a img:hover{
+position:absolute;
+box-shadow:0 0 8px #000;
+z-index:9;
+}
+
+.wptf-circle li{
+list-style:none;
+display:inline-block;
+*zoom:1;
+*display:inline;
+margin:13px !important;
+padding:0 !important;
+}
+
+.wptf-circle li a{
+display:block;
+text-decoration:none;
+background-color:#fff;
+background-repeat:no-repeat;
+background-position:center center;
+float: left;
+border:0;
+border-radius:0;
+padding:0;
+}

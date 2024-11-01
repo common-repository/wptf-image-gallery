@@ -1,0 +1,1 @@
+<?php$slider = mysql_fetch_assoc(mysql_query("SELECT * FROM `".$wpdb->prefix."rbt_sliders` WHERE `id`='$_GET[options]'"));if($slider[type]=='Simple Roundabout 3D slider'){include('admin/simple_options.php');}if($slider[type]=='Facade Slideshow'){include('admin/facade_options.php');}?>
